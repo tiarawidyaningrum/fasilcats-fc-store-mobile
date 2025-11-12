@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:fasilcats_fc_store_mobile/menu.dart';
+import 'package:fasilcats_fc_store_mobile/screens/menu.dart';
 
 void main() {
   runApp(const MyApp());
