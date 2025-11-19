@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:fasilcats_fc_store_mobile/screens/menu.dart'; 
 import 'package:fasilcats_fc_store_mobile/screens/productlist_form.dart';
+import 'package:fasilcats_fc_store_mobile/screens/product_entry_list.dart';
 
 // Kartu tombol
 class ItemCard extends StatelessWidget {
@@ -25,6 +26,12 @@ class ItemCard extends StatelessWidget {
             Navigator.push(
               context,
               MaterialPageRoute(builder: (context) => const ProductFormPage()),
+            );
+          }
+          else if (item.name == "See Fasilcats FC Store") {
+            Navigator.push(
+              context,
+              MaterialPageRoute(builder: (context) => const ProductEntryListPage()),
             );
           }
         },
